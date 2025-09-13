@@ -1,6 +1,7 @@
-from servidor import create_mcp_server
-from utilidades.cache import init_cache_db
-
+from mcp_server.servidor import create_mcp_server
+from mcp_server.utilidades.cache import init_cache_db
+from dotenv import load_dotenv
+load_dotenv()
     
 # Entry point to run the servercd 
 if __name__ == "__main__":

@@ -6,7 +6,7 @@ from fastmcp import FastMCP
 # Importa el módulo datastage de utilidades.
 # Esto es clave para que MCP pueda encontrar las funciones referenciadas
 # en los archivos YAML (ej. 'datastage.dsjob_command').
-from utilidades import datastage
+from .utilidades import datastage
 
 def load_tools_from_directory(directory: str) -> list[dict]:
     tools_data = []
