@@ -16,5 +16,3 @@ class DataStageConfig:
 
 # Instancia de configuración para fácil acceso
 datastage_config = DataStageConfig()
-
-

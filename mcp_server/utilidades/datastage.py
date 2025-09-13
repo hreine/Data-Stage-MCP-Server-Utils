@@ -27,7 +27,7 @@ def _run_datastage_command(command_args):
         ) from e
     except FileNotFoundError:
         raise DataStageError(
-            f"DataStage command not found. Ensure DataStage client is installed and in PATH. "\n"
+            f"DataStage command not found. Ensure DataStage client is installed and in PATH. "
             f"Attempted command: {' '.join(command_args)}"
         )
 
@@ -422,4 +422,3 @@ def get_jobs_uses(project: str, job: str) -> str:
     ]
     log_job_output = _run_datastage_command(cmd)
     return log_job_output
-

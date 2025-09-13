@@ -8,5 +8,3 @@ returns:
   type: string
   description: La URL del servidor DataStage.
 function: datastage.get_datastage_server
-
-

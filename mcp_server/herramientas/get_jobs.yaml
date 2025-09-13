@@ -9,5 +9,3 @@ parameters:
 returns:
   type: string
   description: Retorna la lista de proyectos disponibles en DataStage.
-
-

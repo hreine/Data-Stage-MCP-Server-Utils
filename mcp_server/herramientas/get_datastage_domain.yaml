@@ -8,5 +8,3 @@ returns:
   type: string
   description: El valor de DATASTAGE_DOMAIN.
 function: datastage.get_datastage_domain
-
-

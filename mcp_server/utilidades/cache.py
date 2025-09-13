@@ -59,4 +59,3 @@ def generate_cache_key(*args, **kwargs):
 
 # Initialize the database when the module is imported
 init_cache_db()
-

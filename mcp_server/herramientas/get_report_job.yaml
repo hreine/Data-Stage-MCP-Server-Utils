@@ -13,5 +13,3 @@ parameters:
     description: "El tipo de reporte a generar. Opciones: BASIC, DETAIL, XML."
     default: "BASIC"
 return_type: string
-
-

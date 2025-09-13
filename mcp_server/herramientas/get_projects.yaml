@@ -8,5 +8,3 @@ returns:
   type: string
   description: Retorna la lista de proyectos disponibles en DataStage.
 function: datastage.get_projects
-
-

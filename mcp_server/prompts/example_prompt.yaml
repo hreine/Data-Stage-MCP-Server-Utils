@@ -9,5 +9,3 @@ parameters:
   - name: param2
     type: integer
     description: A sample integer parameter.
-
-
