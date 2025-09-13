@@ -1,0 +1,18 @@
+name: get_params
+description: "Lista de parametros de un job."
+parameters:
+  type: object
+  properties:
+    project:
+      type: string
+      description: "El proyecto de DataStage."
+    job:
+      type: string
+      description: "El job de DataStage."
+  required:
+    - project
+    - job
+returns:
+  type: string
+  description: "Retorna una lista de parametros del job especificado."
+function: datastage.get_params

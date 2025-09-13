@@ -1,0 +1,12 @@
+name: get_projects
+description: Retorna la lista de proyectos disponibles en DataStage.
+parameters:
+  type: object
+  properties: {}
+  required: []
+returns:
+  type: string
+  description: Retorna la lista de proyectos disponibles en DataStage.
+function: datastage.get_projects
+
+

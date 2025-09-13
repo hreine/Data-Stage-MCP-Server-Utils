@@ -1,0 +1,22 @@
+name: get_stage_info
+description: "Visualizacion de informacion de un stage en particular."
+parameters:
+  type: object
+  properties:
+    project:
+      type: string
+      description: "El proyecto de DataStage."
+    job:
+      type: string
+      description: "El job de DataStage."
+    stage:
+      type: string
+      description: "El stage de DataStage."
+  required:
+    - project
+    - job
+    - stage
+returns:
+  type: string
+  description: "Retorna la informacion del stage especificado."
+function: datastage.get_stage_info

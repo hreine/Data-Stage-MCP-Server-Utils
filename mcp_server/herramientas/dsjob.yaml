@@ -1,0 +1,22 @@
+name: dsjob
+description: Ejecuta comandos de dsjob en DataStage.
+function: datastage.dsjob_command
+parameters:
+  - name: project
+    type: string
+    description: El nombre del proyecto de DataStage. Por defecto, usa el configurado en config.py.
+    required: false
+  - name: job_name
+    type: string
+    description: El nombre del trabajo de DataStage.
+    required: true
+  - name: command
+    type: string
+    description: El subcomando de dsjob (ej. 'run', 'log', 'status').
+    required: true
+  - name: args
+    type: array
+    description: Argumentos adicionales para el subcomando de dsjob.
+    items:
+      type: string
+    required: false

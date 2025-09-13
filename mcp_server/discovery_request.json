@@ -1,0 +1,6 @@
+{
+  "jsonrpc": "2.0",
+  "method": "mcp/discover",
+  "params": {},
+  "id": 1
+}

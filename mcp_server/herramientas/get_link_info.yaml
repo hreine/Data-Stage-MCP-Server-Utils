@@ -1,0 +1,26 @@
+name: get_link_info
+description: "Visualizacion de informacion de un link en particular."
+parameters:
+  type: object
+  properties:
+    project:
+      type: string
+      description: "El proyecto de DataStage."
+    job:
+      type: string
+      description: "El job de DataStage."
+    stage:
+      type: string
+      description: "El stage de DataStage."
+    link:
+      type: string
+      description: "El link de DataStage."
+  required:
+    - project
+    - job
+    - stage
+    - link
+returns:
+  type: string
+  description: "Retorna la informacion del link especificado."
+function: datastage.get_link_info

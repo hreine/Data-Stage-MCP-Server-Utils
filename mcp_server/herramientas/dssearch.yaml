@@ -1,0 +1,16 @@
+name: dssearch
+description: Busca objetos en DataStage (simulado).
+function: datastage.dssearch_command
+parameters:
+  - name: project
+    type: string
+    description: El nombre del proyecto de DataStage. Por defecto, usa el configurado en config.py.
+    required: false
+  - name: search_string
+    type: string
+    description: La cadena a buscar.
+    required: true
+  - name: object_type
+    type: string
+    description: Tipo opcional de objeto a buscar (ej. 'JOB', 'TABLE').
+    required: false

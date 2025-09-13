@@ -1,0 +1,12 @@
+name: get_datastage_domain
+description: Retorna el valor de la variable de entorno DATASTAGE_DOMAIN.
+parameters:
+  type: object
+  properties: {}
+  required: []
+returns:
+  type: string
+  description: El valor de DATASTAGE_DOMAIN.
+function: datastage.get_datastage_domain
+
+

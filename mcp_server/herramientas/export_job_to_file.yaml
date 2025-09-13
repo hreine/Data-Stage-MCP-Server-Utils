@@ -1,0 +1,16 @@
+name: export_job_to_file
+description: Exporta un job de DataStage.
+function: datastage.export_job_to_file
+parameters:
+  - name: project
+    type: string
+    description: El nombre del proyecto de DataStage. Por defecto, usa el configurado en config.py.
+    required: false  
+  - name: object_name
+    type: string
+    description: El nombre del objeto a exportar.
+    required: true
+  - name: output_file
+    type: string
+    description: La ruta al archivo de salida.
+    required: true

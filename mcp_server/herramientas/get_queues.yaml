@@ -1,0 +1,10 @@
+name: get_queues
+description: "Listado de colas de trabajos."
+parameters:
+  type: object
+  properties: {}
+  required: []
+returns:
+  type: string
+  description: "Retorna una lista de colas de trabajos."
+function: datastage.get_queues

@@ -1,0 +1,13 @@
+name: get_jobs
+description: Lista de jobs en un proyecto
+function: datastage.get_jobs
+parameters:
+  - name: project
+    type: string
+    description: El nombre del proyecto de DataStage.
+    required: false
+returns:
+  type: string
+  description: Retorna la lista de proyectos disponibles en DataStage.
+
+

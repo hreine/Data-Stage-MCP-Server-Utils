@@ -1,0 +1,22 @@
+name: get_links
+description: "Lista de enlaces de una etapa (stage) en un job."
+parameters:
+  type: object
+  properties:
+    project:
+      type: string
+      description: "El proyecto de DataStage."
+    job:
+      type: string
+      description: "El job de DataStage."
+    stage:
+      type: string
+      description: "La etapa (stage) de DataStage."
+  required:
+    - project
+    - job
+    - stage
+returns:
+  type: string
+  description: "Retorna una lista de enlaces de la etapa especificada."
+function: datastage.get_links

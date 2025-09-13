@@ -1,0 +1,17 @@
+name: get_report_job
+description: "Genera un reporte para un job específico en un proyecto de DataStage."
+function: datastage.get_report_job
+parameters:
+  - name: project
+    type: string
+    description: "El nombre del proyecto de DataStage."
+  - name: job
+    type: string
+    description: "El nombre del job para el que se generará el reporte."
+  - name: report_type
+    type: string
+    description: "El tipo de reporte a generar. Opciones: BASIC, DETAIL, XML."
+    default: "BASIC"
+return_type: string
+
+

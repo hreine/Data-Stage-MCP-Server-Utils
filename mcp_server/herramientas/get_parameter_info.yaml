@@ -1,0 +1,22 @@
+name: get_parameter_info
+description: "Visualizacion de informacion de un parametro en particular."
+parameters:
+  type: object
+  properties:
+    project:
+      type: string
+      description: "El proyecto de DataStage."
+    job:
+      type: string
+      description: "El job de DataStage."
+    param:
+      type: string
+      description: "El parametro de DataStage."
+  required:
+    - project
+    - job
+    - param
+returns:
+  type: string
+  description: "Retorna la informacion del parametro especificado."
+function: datastage.get_parameter_info

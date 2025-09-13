@@ -1,0 +1,18 @@
+name: get_jobs_with_status
+description: "Lista de jobs en un proyecto con un estado de ejecución específico."
+parameters:
+  type: object
+  properties:
+    project:
+      type: string
+      description: "El proyecto de DataStage."
+    status:
+      type: string
+      description: "El estado de ejecución de los jobs a listar (e.g., '96,97' para DSJS_CRASHED o DSJS_STOPPED)."
+  required:
+    - project
+    - status
+returns:
+  type: string
+  description: "Retorna una lista de trabajos en el proyecto con el estado especificado."
+function: datastage.get_jobs_with_status

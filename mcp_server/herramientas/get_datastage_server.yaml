@@ -1,0 +1,12 @@
+name: get_datastage_server
+description: Retorna la URL del servidor DataStage configurado.
+parameters:
+  type: object
+  properties: {}
+  required: []
+returns:
+  type: string
+  description: La URL del servidor DataStage.
+function: datastage.get_datastage_server
+
+
